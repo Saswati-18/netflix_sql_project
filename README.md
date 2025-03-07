@@ -14,6 +14,7 @@ The data for this project is sourced from the Kaggle dataset:
 
 # Dataset Link: Movies Dataset
 Schema
+```
 CREATE TABLE netflix();
 drop table if exists netflix;
 create table netflix
@@ -30,6 +31,7 @@ create table netflix
      listed_in	varchar(100),
      descriptions varchar(250)
 );
+```
 Business Problems and Solutions
 # 1. Count the Number of Movies vs TV Shows
 SELECT type,COUNT(type)
